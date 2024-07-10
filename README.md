@@ -34,3 +34,5 @@ This is a Flask application to interact with the SETU Account Aggregator API.
 - `POST /consent/approve`: Approve a consent request.
 - `POST /session`: Create a data session.
 - `POST /data`: Fetch data from a session.
+use curl command to run
+curl http://localhost:3000/consent/{phone number}
